@@ -1,7 +1,7 @@
-let Weight;
-Weight = 68; // 体重
+let weight = 68; // 体重
 
-let Height;
-Height = 1.7; // 身長
+let height = 1.7; // 身長
 
-console.log(Weight / (Height * Height));
+let bmi = weight / (height * height); // BMIを計算し変数に代入
+
+console.log(bmi);
